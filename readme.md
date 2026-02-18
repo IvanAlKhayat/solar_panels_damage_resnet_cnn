@@ -1,4 +1,4 @@
-# Solar Cell Defect Classification
+# ☀️Solar Cell Defect Classification
 
 Binary classification system for detecting defects in solar cell images using a custom ResNet architecture. Achieves 83% F1-score on the validation set.
 
@@ -198,6 +198,8 @@ output = session.run(None, {input_name: image_numpy})
 ```
 
 ## Results
+
+<img src="./best_losses.png" />
 
 | Metric | Value |
 |--------|-------|
