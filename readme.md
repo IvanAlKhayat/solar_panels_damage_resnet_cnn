@@ -206,7 +206,7 @@ output = session.run(None, {input_name: image_numpy})
 | F1-Score | 83% |
 | Training Strategy | Warm start + refinement |
 | Final Learning Rate | 3e-5 |
-| Best Validation Loss | ~0.32 |
+| Best Validation Loss | ~0.15 |
 
 The model successfully generalizes to the validation set without significant overfitting, as evidenced by the stable validation loss curve during refinement.
 
